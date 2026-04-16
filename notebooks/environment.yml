@@ -1,0 +1,24 @@
+name: vina
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - rdkit
+  - swig
+  - boost-cpp
+  - libboost
+  - sphinx
+  - sphinx_rtd_theme
+  - gemmi
+  - autogrid
+  - vina
+  - meeko
+  - openmm
+  - pdbfixer
+  - pip
+  - pip:
+      - prody
+      - vina
