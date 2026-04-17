@@ -37,7 +37,7 @@ Performing docking (random seed: 100) ...
 mode |   affinity | dist from best mode
      | (kcal/mol) | rmsd l.b.| rmsd u.b.
 -----+------------+----------+----------
-   1       -8.207          0          0
+   1       -9.121          0          0
    2        -8.16     0.5817      1.186
    3       -7.974     0.8867      1.937
    4       -7.548      1.263      1.663
