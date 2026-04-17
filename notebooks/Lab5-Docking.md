@@ -57,7 +57,7 @@ For this lab, we will use two separate Conda environments. The **Required** envi
 
 **Create the environment from YAML (Recommended):**
 ```bash
-conda env create -f lab5-environment.yml
+conda env create -f environment.yml
 ```
 
 Create environment manually (Alternative):
