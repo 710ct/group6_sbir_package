@@ -20,7 +20,7 @@ AutoDock Vina 7ac2999-mod
 Scoring function : vina
 Rigid receptor: flex_receptor_rigid.pdbqt
 Flex receptor: flex_receptor_flex.pdbqt
-Ligand: ./ligands/ligand_10.pdbqt
+Ligand: ./ligands/ligand_18.pdbqt
 Grid center: X 19.622 Y 117.041 Z 10.587
 Grid size  : X 25 Y 25 Z 25
 Grid space : 0.375
@@ -38,11 +38,11 @@ mode |   affinity | dist from best mode
      | (kcal/mol) | rmsd l.b.| rmsd u.b.
 -----+------------+----------+----------
    1            0          0          0
-   2    0.0003237      4.484      7.369
-   3    0.0009503      1.832      2.373
-   4     0.007003      10.06      12.11
-   5     0.009098      3.621      4.381
-   6      0.02784       3.65      6.189
-   7      0.03018      5.586      8.587
-   8      0.04717       6.78      9.255
-   9      0.06374      3.823      5.819
+   2    0.0002869      9.183       11.2
+   3    0.0003624      6.929      10.73
+   4     0.000364      4.753      8.194
+   5      0.00114      9.108      12.23
+   6     0.001201      6.874      9.511
+   7      0.00156      7.174      9.175
+   8     0.001745      4.639      7.379
+   9     0.002076      10.24      13.39
