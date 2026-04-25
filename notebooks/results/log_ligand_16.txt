@@ -1,4 +1,4 @@
-AutoDock Vina 7ac2999-mod
+AutoDock Vina 52ec525-mod
 #################################################################
 # If you used AutoDock Vina in your work, please cite:          #
 #                                                               #
@@ -24,7 +24,7 @@ Ligand: ./ligands/ligand_16.pdbqt
 Grid center: X 19.622 Y 117.041 Z 10.587
 Grid size  : X 25 Y 25 Z 25
 Grid space : 0.375
-Exhaustiveness: 6
+Exhaustiveness: 18
 CPU: 0
 Verbosity: 1
 
@@ -38,11 +38,11 @@ mode |   affinity | dist from best mode
      | (kcal/mol) | rmsd l.b.| rmsd u.b.
 -----+------------+----------+----------
    1            0          0          0
-   2            0      5.438      8.811
-   3            0      5.049      6.871
-   4            0      8.388      9.067
-   5            0      5.845      7.191
-   6            0      12.31      15.93
-   7            0      5.244      8.091
-   8            0      6.512      8.865
-   9    1.237e-08       5.71       8.09
+   2            0      11.37      13.44
+   3            0      8.275      9.473
+   4    1.237e-08      4.736      7.234
+   5    1.237e-08      9.643      11.41
+   6    1.237e-08      4.983      8.259
+   7    1.237e-08       7.28      10.16
+   8    1.237e-08      17.39      20.34
+   9    1.237e-08      15.23      16.57
