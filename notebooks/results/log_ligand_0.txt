@@ -20,7 +20,7 @@ AutoDock Vina 52ec525-mod
 Scoring function : vina
 Rigid receptor: flex_receptor_rigid.pdbqt
 Flex receptor: flex_receptor_flex.pdbqt
-Ligand: ./ligands/ligand_20.pdbqt
+Ligand: ./ligands/ligand_0.pdbqt
 Grid center: X 33.208 Y 45.136 Z 8.339
 Grid size  : X 50 Y 50 Z 50
 Grid space : 0.375
@@ -37,12 +37,12 @@ Performing docking (random seed: 100) ...
 mode |   affinity | dist from best mode
      | (kcal/mol) | rmsd l.b.| rmsd u.b.
 -----+------------+----------+----------
-   1        -9.22          0          0
-   2       -8.898      2.551      7.075
-   3       -8.848      1.843       7.47
-   4       -8.807      1.411      2.085
-   5       -8.668      2.939      8.067
-   6       -8.644       2.21      3.144
-   7       -8.541      3.365       7.95
-   8       -8.531      2.573       8.39
-   9       -8.506      1.789      2.564
+   1       -9.082          0          0
+   2       -9.001      2.256      5.225
+   3       -8.912      3.236      7.621
+   4       -8.873      3.938       9.57
+   5        -8.85      3.885      9.696
+   6       -8.798       3.66      7.859
+   7       -8.742      3.205      8.313
+   8       -8.642      2.078      3.725
+   9       -8.536      3.217      7.564
