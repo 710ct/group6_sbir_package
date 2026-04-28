@@ -1,13 +1,13 @@
 receptor = flex_receptor_rigid.pdbqt
 ligand = ligand.pdbqt
 
-center_x = 33.208  
-center_y = 45.136   
-center_z = 8.339
+center_x = 33.139  
+center_y = 41.189  	     
+center_z = -4.257
 
-size_x = 50
-size_y = 50
-size_z = 50
+size_x = 30
+size_y = 35
+size_z = 25
 
 exhaustiveness = 18
 seed = 100

@@ -21,8 +21,8 @@ Scoring function : vina
 Rigid receptor: flex_receptor_rigid.pdbqt
 Flex receptor: flex_receptor_flex.pdbqt
 Ligand: ./ligands/ligand_20.pdbqt
-Grid center: X 33.208 Y 45.136 Z 8.339
-Grid size  : X 50 Y 50 Z 50
+Grid center: X 33.139 Y 41.189 Z -4.257
+Grid size  : X 30 Y 35 Z 25
 Grid space : 0.375
 Exhaustiveness: 18
 CPU: 0
@@ -37,12 +37,12 @@ Performing docking (random seed: 100) ...
 mode |   affinity | dist from best mode
      | (kcal/mol) | rmsd l.b.| rmsd u.b.
 -----+------------+----------+----------
-   1        -9.22          0          0
-   2       -8.898      2.551      7.075
-   3       -8.848      1.843       7.47
-   4       -8.807      1.411      2.085
-   5       -8.668      2.939      8.067
-   6       -8.644       2.21      3.144
-   7       -8.541      3.365       7.95
-   8       -8.531      2.573       8.39
-   9       -8.506      1.789      2.564
+   1        -9.16          0          0
+   2        -8.87      1.687      2.236
+   3       -8.763      2.829      7.306
+   4       -8.619      1.922      2.889
+   5        -8.51      2.628      8.405
+   6       -8.466       1.87      7.655
+   7       -8.324      3.792      7.644
+   8       -8.114      2.444      8.092
+   9       -8.094      5.061      9.264
