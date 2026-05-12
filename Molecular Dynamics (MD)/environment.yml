@@ -1,0 +1,15 @@
+name: md
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openfe
+  - gufe
+  - openff-units
+  - openmm
+  - pdbfixer
+  - mdanalysis
+  - matplotlib
+  - numpy
+  - scipy
+  - ipykernel
