@@ -1,0 +1,2 @@
+#"Step","Time (ps)","Potential Energy (kJ/mole)","Kinetic Energy (kJ/mole)","Total Energy (kJ/mole)","Temperature (K)","Box Volume (nm^3)","Density (g/mL)","Speed (ns/day)"
+250000,1000.0000000033186,12483.44652285066,17130.549196717107,29613.995719567767,312.43179847819323,8.0,7.966682527983549,0
