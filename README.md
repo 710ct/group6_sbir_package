@@ -43,14 +43,12 @@ Create the environment from YAML:
 
 ## How To Run
 
-For Molecular Dokcing (open Molecular Docking.ipynb):  
+For Molecular Docking (open Molecular Docking.ipynb):  
   
-Step 1: Strip ligand and water from raw PDB.  
-Step 2: Fix receptor and add hydrogens at pH 7.4  
-Step 3: Prepare the flexible receptor (His 218, 222, 228, which correspond to the Zn2+ ions)  
-Step 4: Prepare all ligands (20)  
-Step 5: Run docking for all ligands. This loops over all 20 ligands with AutoDock Vina. Poses and log files are saves to `results`.  
-Step 6: Parse results and rank ligands based ob best binding affinity. The fianl ligands selected for MD simulations are ligands 2, 8, and 9, along with ligand 0 as a control.  
+Step 1: Use PDBFixer to clean structure and add missing hydrogens, prepare receptor and ligands. (pH 7.4) (run cells under "For our Project (Just paste all of the rest things in Terminal)")  
+Step 2: Prepare all ligands (20)  
+Step 3: Run docking for all ligands. This loops over all 20 ligands with AutoDock Vina. (run cells under "IN NOTEBOOK") Poses and log files are saves to `results`.  
+Step 4: Rank ligands based ob best binding affinity. The final ligands selected for MD simulations are ligands 2, 8, and 9, along with ligand 0 as a control.  
 
 For Molecular Dynamics (open md.ipynb):  
   
