@@ -1,4 +1,4 @@
-# Project Titlte: Molecular Docking and MD Simulation-Driven Discovery of Zn2+ Targeting MMP-1 Inhibitors for Next-Generation Bioactive Sunscreens 
+# Project Title: Molecular Docking and MD Simulation-Driven Discovery of Zn2+ Targeting MMP-1 Inhibitors for Next-Generation Bioactive Sunscreens 
 
 ## Project Summary
 Chronic UV exposure triggers the overproduction of Matrix Metalloproteinase-1 (MMP-1), a collagenase that initiates the degradation of the dermal extracellular matrix. Our project studies the ability for zinc-binding ligands to inhibit MMP-1. The computational workflow uses molecular docking simulations to screen for the top 3 candidate ligands from a known library, followed by molecular dynamics to simulate ligand stability in the binding pocket over time. The main output is a ranking of the ideal inhibitor molecules that could potentially be implemented to support next-generation sunscreens.
