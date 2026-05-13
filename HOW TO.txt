@@ -1,8 +1,0 @@
-<When other member changed...Before start changing>
-git pull origin main
-
-<When You changed sth>
-git add . 
-git commit -m "what has changed"
-git push origin main
-
