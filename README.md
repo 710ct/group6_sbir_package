@@ -69,6 +69,7 @@ For Molecular Docking:
 
 For Molecular Dynamics:
 - MAIN OUTPUT `rmsd.png` Backbone RMSD vs. Time plot
+- Mean and max RMSD values for all ligands (found in last cell of notebook)
 - `md_results` (each ligand folder contains: equil_npt.pdb, equil_nvt.pdb, minimized.pdb, simulation.log)
 
 ## Runtime Notes And Limitations
