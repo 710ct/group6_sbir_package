@@ -44,6 +44,7 @@ Create the environment from YAML:
 ## How To Run
 
 For Molecular Dokcing (open Molecular Docking.ipynb):  
+  
 Step 1: Strip ligand and water from raw PDB.  
 Step 2: Fix receptor and add hydrogens at pH 7.4  
 Step 3: Prepare the flexible receptor (His 218, 222, 228, which correspond to the Zn2+ ions)  
@@ -52,6 +53,7 @@ Step 5: Run docking for all ligands. This loops over all 20 ligands with AutoDoc
 Step 6: Parse results and rank ligands based ob best binding affinity. The fianl ligands selected for MD simulations are ligands 2, 8, and 9, along with ligand 0 as a control.  
 
 For Molecular Dynamics (open md.ipynb):  
+  
 Step 1: Run the PDBFixer cell to fix assets/1cgl_no_lig.pdb (adds missing hydrogens). Outputs assets/1cgl_fixed.pdb.  
 Step 2: Run subsequent cells to perform MD simulations (define vacuum ChemicalSystem for ligands, set simulation settings [1 ns production run], create Protocol & NonTransformation, and write JSON files to run in terminal)  
 - NOTE: system is performed in vacuum to improve runtime. In creating the settings, the settings for running NVT and NPT are purposely set to be really low to reduce runtime (our MD study only concerned about RMSD).
