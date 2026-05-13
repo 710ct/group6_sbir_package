@@ -6,7 +6,7 @@ Chronic UV exposure triggers the overproduction of Matrix Metalloproteinase-1 (M
 ## Package Contents
 
 - `Molecular Docking` folder
-  - `ligands` (20 candidate ligand pdbqt)
+  - `ligands` (20 candidate ligand(ligand_1~20) and control ligand_0 pdbqt)
   - `ligands_raw` (sdf files for all ligands)
   - `results` (vina docking output)
   - `table_results` (shows affinity scores)
@@ -45,9 +45,9 @@ Create the environment from YAML:
 
 For Molecular Docking (open Molecular Docking.ipynb):  
   
-Step 1: Use PDBFixer to clean structure and add missing hydrogens, prepare receptor and ligands. (pH 7.4) (run cells under "For our Project (Just paste all of the rest things in Terminal)")  
+Step 1: Use PDBFixer to clean the structure and add missing hydrogens, prepare the receptor and ligands. (pH 7.4) (run cells under "IN TERMINAL (Copy and Paste all and run for each step)")  
 Step 2: Prepare all ligands (20)  
-Step 3: Run docking for all ligands. This loops over all 20 ligands with AutoDock Vina. (run cells under "IN NOTEBOOK") Poses and log files are saves to `results`.  
+Step 3: Run docking for all ligands. This loops over all 20 ligands with AutoDock Vina. (run cells under "IN NOTEBOOK (Run all the cells)") Poses and log files are saved to `results`.  
 Step 4: Rank ligands based ob best binding affinity. The final ligands selected for MD simulations are ligands 2, 8, and 9, along with ligand 0 as a control.  
 
 For Molecular Dynamics (open md.ipynb):  
@@ -75,6 +75,7 @@ For Molecular Dynamics:
 - `md_results` (each ligand folder contains: equil_npt.pdb, equil_nvt.pdb, minimized.pdb, simulation.log)
 
 ## Runtime Notes And Limitations
+For Molecular Docking, it takes ~5 minutes for each ligand binding, run in the terminal. It takes almost 2 hours to run for all ligands, so it took a long time to figure out how to select the config(e.g., the center and size of the box). 
 
 For MD, each ligand takes ~30-60 minutes on CPU (for a 1ns simulation). For our purposes, a 1 ns runtime is mostly sufficient (RMSD results plateus and mostly stabilizes). Though a GPU is not required to run, it would greatly speed up the runtime of the simulations. A vacuum environment is created to reduce runtime, and so RMSD values may not accurately reflect how the ligand wound perform in physiological solvent conditions. 
 
