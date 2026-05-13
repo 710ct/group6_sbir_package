@@ -54,7 +54,7 @@ For Molecular Dynamics (open md.ipynb):
   
 Step 1: Run the PDBFixer cell to fix assets/1cgl_no_lig.pdb (adds missing hydrogens). Outputs assets/1cgl_fixed.pdb.  
 Step 2: Run subsequent cells to perform MD simulations (define vacuum ChemicalSystem for ligands, set simulation settings [1 ns production run], create Protocol & NonTransformation, and write JSON files to run in terminal)  
-- NOTE: system is performed in vacuum to improve runtime. In creating the settings, the settings for running NVT and NPT are purposely set to be really low to reduce runtime (our MD study only concerned about RMSD).
+- NOTE: system is performed in vacuum to improve runtime. In creating the settings, the settings for running NVT and NPT are purposely set to be really low to reduce runtime (our MD study only concerned about RMSD).  
 Step 3. Run RMSD cell to generate a plot of Backbone RMSD vs. Time, along with average and max RMSD values for each ligand  
 
 ## Expected Outputs
